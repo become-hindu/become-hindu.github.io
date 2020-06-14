@@ -1,0 +1,17 @@
+baseURL = "https://become-hindu.github.io/"
+languageCode = "en-us"
+title = "Become Hindu! घर वापसी!"
+theme = "sanskrit-documentation-theme-hugo"
+publishDir = "build_github"
+disablePathToLower = true
+
+[params]
+  githubEditMePathBase = "https://github.com/become-hindu/become-hindu.github.io/edit/hugo-source/content/"
+  contactLink = "https://github.com/become-hindu/become-hindu.github.io/issues/new"
+  env = "production"
+#  disqusShortcode = "hindu-vichaarah"
+  background_color_class = "bg-light-red"
+  body_classes = "bg-washed-yellow"
+
+[markup.goldmark.renderer]
+  unsafe= true
